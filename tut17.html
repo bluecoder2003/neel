@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>height,width,borders,backgrounds</title>
+    <style>
+        #frstpara
+        {
+            background-color: aqua;
+            height: 120px;
+            width: 450px;
+            border:3px dashed rebeccapurple;
+           /* border-width: 3px;
+            border-color: rgb(117, 99, 134);
+            border-style: dashed;*/
+            border-radius: 13px;
+            color:rgb(126, 126, 194);
+        }
+        #secpara
+        {
+            background-color: rgb(138, 115, 222);
+            height: 130px;
+            width: 460px;
+            border-top: 3px solid rgb(211, 97, 97);
+            border-left: 3px solid rgb(56, 5, 5);
+            border-right: 3px solid rgb(63, 7, 7);
+            border-bottom: 3px solid rgb(211, 97, 97);
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 3px;
+        }
+        #thirdpara{
+            height: 500px;
+            width:455px; 
+            background-image: url('https://thenounproject.com/api/private/icons/1018294/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0');
+            border: 2px solid red;
+            background-repeat: no-repeat; /* repeat-x and repeat-y will make it repeat on x and y axis */
+            /* background-position: 192px 34px; */
+            background-position: center center;
+            /* background-position: bottom right; */
+            /* background-position: top center; */ 
+          }
+    </style>
+</head>
+<body>
+    <h3>this is heading</h3>
+    <p id="frstpara">this is a paragraph</p>
+    <h3>this is second heading</h3>
+    <p id="secpara">this is second paragraph</p>
+    <h3>this is third heading</h3>
+    <p id="thirdpara">this is third paragraph</p>
+
+</body>
+</html>
